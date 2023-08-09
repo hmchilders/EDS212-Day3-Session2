@@ -2,11 +2,46 @@
 title: "EDS212-Day3-Session2"
 ---
 
-## Session2
+# Session 2
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
 ```{r}
-x <- 5
-y <- 6
+smpl <- c(2L , 9L, 8L, 4L, 0L)
+smpl
+
+class(smpl)
+```
+
+## Vectors in R
+
+```{r}
+
+# Every vector in R is the same class, the line below has 3 character a numeric and a logical value, so R will make them all characters because that is the best was to contain all the values for the vector
+marmots <- c("blue", "green", 4, "yellow", TRUE)
+#Check the class if youre unsure
+class(marmots)
+#when you call the vector, you can see everything has quotes around it which makes them characters
+marmots
+
+```
+
+```{r}
+# Create and store the vector: 
+pika <- c(12.4, 6.8, 2.9, 8.8, 5)
+
+# Return it:
+pika
+class(pika)
+```
+
+```{r}
+# Create the integer vector:
+bear <- c(20L, 3L, 5L, 18L, 23L)
+
+# Look at it:
+bear
+
+# Check the class:
+class(bear) 
 ```
