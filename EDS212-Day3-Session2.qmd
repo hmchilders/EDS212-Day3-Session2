@@ -101,3 +101,32 @@ git pull
 git push
 
 "up to date"
+
+# Independent Activity
+
+a\) What is the biomass in the reactor after 4 hours?
+
+2.  What is the rate at which biomass is changing in the reactor at t = 3.2 hours?
+
+```{r}
+Bt = expression(0.4*t^2+ 3.6)
+
+t=4
+eval(Bt)
+
+dBdt = D(Bt, "t")
+dBdt
+t=3.2
+eval(dBdt)
+
+```
+
+```{r}
+a <- c(1,6)
+b <- c(2,4)
+
+a+b
+b-a
+4*a
+a%*%b
+```
