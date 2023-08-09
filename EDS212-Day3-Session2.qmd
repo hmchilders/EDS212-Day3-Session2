@@ -2,7 +2,7 @@
 title: "EDS212-Day3-Session2"
 ---
 
-## Quarto
+## Session2
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
