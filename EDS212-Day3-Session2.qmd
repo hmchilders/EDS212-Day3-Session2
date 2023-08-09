@@ -45,3 +45,29 @@ bear
 # Check the class:
 class(bear) 
 ```
+
+## Vector Addition and Subtraction
+
+```{r}
+ringtail <- c(4.3, 8.9, 2.6, 7.1)
+fox <- c(9.0, 12.5, 5.4, 10.9)
+
+# Addition:
+ringtail + fox
+animal <- ringtail+fox
+
+2*animal
+
+
+rengtail_minus_fox <- ringtail-fox
+
+rengtail_minus_fox
+
+```
+
+Dot Product
+
+```{r}
+ringtail %*% fox
+
+```
