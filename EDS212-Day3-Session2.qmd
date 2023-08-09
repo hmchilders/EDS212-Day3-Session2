@@ -71,3 +71,33 @@ Dot Product
 ringtail %*% fox
 
 ```
+
+## Today's Independent Activity: 
+
+Use the command window to add changes to github
+
+"pwd"
+
+"cd" until you're inside the project file (use ls if you need to)
+
+git status
+
+"you have files that have not been staged"
+
+git add .
+
+" you have files that have not been committed"
+
+git commit -m "message for the commit"
+
+git status
+
+"1 commit is ahead of the origin/master"
+
+git pull
+
+"already up to date"
+
+git push
+
+"up to date"
